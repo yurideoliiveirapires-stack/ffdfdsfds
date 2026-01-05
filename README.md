@@ -3665,7 +3665,7 @@ function CheckItemBPCRBPCR(v463)
     end
 end
 local v466 = loadstring(game:HttpGet("https://pastebin.com/raw/pfkwYyuB"))():MakeWindow({
-    Title = "Kyv Hub",
+    Title = "Abacaxi Hub",
     SubTitle = "by Orchidzx",
     SaveFolder = "Redz | redz lib v5.lua"
 })
@@ -3675,7 +3675,7 @@ l_ScreenGui_0.Parent = game.CoreGui
 local l_ImageButton_0 = Instance.new("ImageButton")
 l_ImageButton_0.Size = UDim2.new(0, 50, 0, 50)
 l_ImageButton_0.Position = UDim2.new(0.15, 0, 0.15, 0)
-l_ImageButton_0.Image = "rbxassetid://128883390772909"
+l_ImageButton_0.Image = "rbxassetid://15273919147"
 l_ImageButton_0.BackgroundTransparency = 1
 l_ImageButton_0.Parent = l_ScreenGui_0
 local l_UICorner_0 = Instance.new("UICorner")
@@ -3755,10 +3755,10 @@ local v494 = v466:MakeTab({"Tab Local Player", "user"})
 local v495 = v466:MakeTab({"Tab Shopping", "shoppingCart"})
 local v496 = v466:MakeTab({"Tab Settings", "settings"})
 v484:AddDiscordInvite({
-    Name = "GhoulScripts",
+    Name = "Abacaxi Hub",
     Description = "Link Discord",
     Logo = "rbxassetid://128883390772909",
-    Invite = "https://discord.gg/CMQzx9PBn"
+    Invite = "https://discord.gg/JmUuUG7e"
 })
 local _ = v485:AddSection({"Select Weapon"})
 _G.SelectWeapon = "Melee"
