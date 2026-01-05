@@ -2912,7 +2912,7 @@ function InfAb()
             l_ParticleEmitter_0.VelocityInheritance = 0
             l_ParticleEmitter_0.ZOffset = 2
             l_ParticleEmitter_0.Transparency = NumberSequence.new(0)
-            l_ParticleEmitter_0.Color = ColorSequence.new(Color3.fromRGB(0, 0, 0), Color3.fromRGB(0, 0, 0))
+            l_ParticleEmitter_0.Color = ColorSequence.new(Color3.fromRGB(40, 40, 40), Color3.fromRGB(0, 0, 0))
             l_ParticleEmitter_0.Parent = game:GetService("Players").LocalPlayer.Character.HumanoidRootPart
         end
     elseif game:GetService("Players").LocalPlayer.Character.HumanoidRootPart:FindFirstChild("Agility") then
@@ -3665,7 +3665,7 @@ function CheckItemBPCRBPCR(v463)
     end
 end
 local v466 = loadstring(game:HttpGet("https://pastebin.com/raw/pfkwYyuB"))():MakeWindow({
-    Title = "Abacaxi Hub",
+    Title = "Kyv Hub",
     SubTitle = "by Orchidzx",
     SaveFolder = "Redz | redz lib v5.lua"
 })
@@ -3675,7 +3675,7 @@ l_ScreenGui_0.Parent = game.CoreGui
 local l_ImageButton_0 = Instance.new("ImageButton")
 l_ImageButton_0.Size = UDim2.new(0, 50, 0, 50)
 l_ImageButton_0.Position = UDim2.new(0.15, 0, 0.15, 0)
-l_ImageButton_0.Image = "rbxassetid://15273919147"
+l_ImageButton_0.Image = "rbxassetid://128883390772909"
 l_ImageButton_0.BackgroundTransparency = 1
 l_ImageButton_0.Parent = l_ScreenGui_0
 local l_UICorner_0 = Instance.new("UICorner")
@@ -3755,10 +3755,10 @@ local v494 = v466:MakeTab({"Tab Local Player", "user"})
 local v495 = v466:MakeTab({"Tab Shopping", "shoppingCart"})
 local v496 = v466:MakeTab({"Tab Settings", "settings"})
 v484:AddDiscordInvite({
-    Name = "Abacaxi Hub",
+    Name = "GhoulScripts",
     Description = "Link Discord",
-    Logo = "rbxassetid://128883390772909",
-    Invite = "https://discord.gg/JmUuUG7e"
+    Logo = "rbxassetid://13031090341",
+    Invite = "https://discord.gg/Dn4KTpc5"
 })
 local _ = v485:AddSection({"Select Weapon"})
 _G.SelectWeapon = "Melee"
