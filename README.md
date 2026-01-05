@@ -2892,7 +2892,7 @@ function InfAb()
     if InfAbility then
         if not game:GetService("Players").LocalPlayer.Character.HumanoidRootPart:FindFirstChild("Agility") then
             local l_ParticleEmitter_0 = Instance.new("ParticleEmitter")
-            l_ParticleEmitter_0.Acceleration = Vector3.new(0, 0, 0)
+            l_ParticleEmitter_0.Acceleration = Vector3.new(40, 40, 40)
             l_ParticleEmitter_0.Archivable = true
             l_ParticleEmitter_0.Drag = 20
             l_ParticleEmitter_0.EmissionDirection = Enum.NormalId.Top
